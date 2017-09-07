@@ -35,7 +35,7 @@ class EnvatoApi2 {
     static function verifyPurchase( $code ) {
       $verify_obj = self::getPurchaseData($code); 
       
-      // Check for correct verify code
+      // Check for correct verify codekkkkkkk
       if ( 
           (false === $verify_obj) || 
           !is_object($verify_obj) ||
